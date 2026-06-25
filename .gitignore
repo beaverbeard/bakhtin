@@ -1,0 +1,10 @@
+# OS / редактор
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+__pycache__/
+*.pyc
+
+# Личные настройки Claude Code
+.claude/settings.local.json
