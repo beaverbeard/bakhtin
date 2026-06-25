@@ -186,13 +186,13 @@ voice-summarizer, отбор, self-grading и adversarial-скептик. Это
 
 | Скил | Зона | Природа |
 |------|------|---------|
+| [Виноградов](https://github.com/beaverbeard/vinogradov) | Сборка авторского голоса (Voice DNA) из корпуса | Скрипт + LLM |
 | **Бахтин** | Генерация черновика: multi-agent, 7 форматов | LLM |
 | [Чуковский](https://github.com/beaverbeard/chukovsky) | Смысл, структура, голос, канцелярит | LLM |
-| [Розенталь](https://github.com/beaverbeard/rozental) | Орфография, пунктуация, согласование, единообразие | LLM |
-| [Слопотрон](https://github.com/beaverbeard/slopotron) | AI-маркеры и нейрослоп | LLM |
-| [Мильчин](https://github.com/beaverbeard/milchin) | Типографика и юникод-гигиена | Скрипт |
 | [Аграновский](https://github.com/beaverbeard/agranovsky) | Верификация фактов: числа, цитаты, законы, ссылки | LLM + поиск |
-| [Виноградов](https://github.com/beaverbeard/vinogradov) | Сборка авторского голоса (Voice DNA) из корпуса | Скрипт + LLM |
+| [Слопотрон](https://github.com/beaverbeard/slopotron) | AI-маркеры и нейрослоп | LLM |
+| [Розенталь](https://github.com/beaverbeard/rozental) | Орфография, пунктуация, согласование, единообразие | LLM |
+| [Мильчин](https://github.com/beaverbeard/milchin) | Типографика и юникод-гигиена | Скрипт |
 
 Этажи: **Виноградов** собирает голос → **Бахтин** им пишет черновик → конвейер
 вычитки **Чуковский → Аграновский → Слопотрон → Розенталь → Мильчин** чистит
