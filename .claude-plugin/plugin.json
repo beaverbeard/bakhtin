@@ -1,0 +1,22 @@
+{
+  "name": "bakhtin",
+  "displayName": "Бахтин",
+  "version": "1.0.0",
+  "description": "Универсальный multi-agent генератор русского текста любого формата: посты, письма, лонгриды, эссе, документы.",
+  "author": {
+    "name": "Rodion Scryabin (beaverbeard)",
+    "url": "https://github.com/beaverbeard"
+  },
+  "homepage": "https://github.com/beaverbeard/bakhtin",
+  "repository": "https://github.com/beaverbeard/bakhtin",
+  "license": "MIT",
+  "keywords": [
+    "writing",
+    "russian",
+    "multi-agent",
+    "content"
+  ],
+  "skills": [
+    "./.claude/skills/"
+  ]
+}
