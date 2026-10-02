@@ -9,6 +9,9 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-skill-da7756.svg)](https://docs.claude.com/en/docs/claude-code/overview)
 
+**In English.** Bakhtin is a multi-agent writer for **Russian-language text** of any format: Telegram posts, letters, longreads, essays, theses and documents. It first builds an understanding of the task, then runs several independent Claude subagents, each writing in its own genre direction, scores the drafts against a rubric and merges the best parts into one seamless draft. Optional voice profiles make it write in a specific author's style. No network access of its own; it saves the final draft only when you ask it to.
+
+
 Даёте материал и формат — Бахтин собирает понимание задачи, гонит несколько
 независимых агентов (каждый в своём жанровом направлении), сравнивает варианты
 по рубрике и склеивает из лучших кусков один черновик без видимых швов.
