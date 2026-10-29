@@ -1,7 +1,7 @@
 {
   "name": "bakhtin",
   "displayName": "Бахтин",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Multi-agent text generator for Russian: posts, letters, longreads, essays and documents — parallel drafts in different genre directions, merged into one by a rubric.",
   "author": {
     "name": "Rodion Scryabin (beaverbeard)",
