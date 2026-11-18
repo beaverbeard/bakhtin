@@ -4,17 +4,18 @@
 
 # Бахтин
 
-> **Claude Code-скил (команда `/бахтин`): универсальный multi-agent генератор русского текста. Запускает N конкурентных агентов с разными жанровыми направлениями на один материал, отбирает лучшее из каждого и компилирует в один черновик. Семь форматов — от телеграм-поста до лонгрида и КП. Только генерация: вычитку делает отдельный слой.**
+> **Claude Code-скил (команда `/бахтин`): универсальный multi-agent генератор русского текста. Запускает N конкурентных агентов с разными жанровыми направлениями на один материал, выбирает основу и при необходимости дополняет её сильными фрагментами других вариантов. Семь форматов — от телеграм-поста до лонгрида и КП. Только генерация: вычитку делает отдельный слой.**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-skill-da7756.svg)](https://docs.claude.com/en/docs/claude-code/overview)
 
-**In English.** Bakhtin is a multi-agent writer for **Russian-language text** of any format: Telegram posts, letters, longreads, essays, theses and documents. It first builds an understanding of the task, then runs several independent Claude subagents, each writing in its own genre direction, scores the drafts against a rubric and merges the best parts into one seamless draft. Optional voice profiles make it write in a specific author's style. No network access of its own; it saves the final draft only when you ask it to.
+**In English.** Bakhtin is a multi-agent writer for **Russian-language text** of any format: Telegram posts, letters, longreads, essays, theses and documents. It first builds an understanding of the task, then runs several independent Claude subagents, each writing in its own genre direction, scores the drafts against a rubric, selects a base draft and imports stronger passages only when they improve it. Optional voice profiles make it write in a specific author's style. No network access of its own; it saves the final draft only when you ask it to.
 
 
 Даёте материал и формат — Бахтин собирает понимание задачи, гонит несколько
 независимых агентов (каждый в своём жанровом направлении), сравнивает варианты
-по рубрике и склеивает из лучших кусков один черновик без видимых швов.
+по рубрике, выбирает основу и переносит удачные фрагменты, когда они её улучшают.
+Лучший вариант может остаться целиком; судья получает те же образцы голоса, что генераторы.
 
 ```
 /бахтин  longread про внедрение OKR в маленькой команде
@@ -30,8 +31,8 @@
 теряет разнообразие выдачи (в исследованиях это называют mode collapse; термин
 пришёл из GAN и на LLM перенесён по аналогии). Идея Бахтина — **разноречие**:
 несколько агентов с разными жанровыми установками дают более далёкие друг от
-друга варианты, чем один агент при повторных запусках, а компиляция собирает из
-них черновик, где сильные ходы каждого сохранены.
+друга варианты, чем один агент при повторных запусках, а сборка сохраняет цельный
+ход мысли основы и добавляет сильные ходы других вариантов, когда это помогает задаче.
 
 Имя — Михаил Бахтин, теория полифонии и разноречия. Метафора прямая: N
 независимых голосов сходятся в один полифонический текст.
@@ -53,7 +54,8 @@
    концепты автора, если задан voice-плагин.
 4. **Конкурентная генерация** — N агентов, каждый в своём направлении из
    `directions/{format}.md` (конкретный жанровый референс, не слово-роль).
-5. **Отбор и компиляция** — из лучших кусков, швов не видно.
+5. **Отбор и компиляция** — лучший допущенный вариант становится основой;
+   переносы из других вариантов требуют конкретного выигрыша по рубрике.
 6. **Self-grading + adversarial-скептик** — оценка по дружелюбной рубрике
    пропускает многое, поэтому отдельный скептик («по умолчанию ищу изъян»)
    вылавливает фабрикации, логические дыры и структурный слоп.
@@ -189,7 +191,7 @@ voice-summarizer, отбор, self-grading и adversarial-скептик. Это
 - **Модель — под формат, а не «всегда максимальную».** Голосовые форматы
   (`tg-post`, `essay`, `letter`) — сильная модель: она держит хук и голос.
   Деловые (`theses`, `doc`) и **служебные агенты** (Outliner, voice-summarizer,
-  судья) — модель попроще, они механические. Но генерацию голосового контента
+  судья) — модель попроще. Оценка судьи требует отдельной калибровки. Но генерацию голосового контента
   самой слабой модели не отдавайте — просядут хук и голос.
 - **Длина.** Лонгрид на 15k знаков × N агентов — это серьёзный объём токенов.
   Для длинных форматов разумно снизить N (например, `longread` при `N=1–2`).
