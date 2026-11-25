@@ -110,6 +110,18 @@ Learn to give clearer briefs, retain your own voice and spot invented details. T
 [Subscribe to the newsletter →](https://redaktozavr.ru/rAIdactor?utm_source=skills)
 
 
+## The person behind the name
+
+<img src="assets/people/bakhtin.jpg" alt="Mikhail Mikhailovich Bakhtin" align="right" width="128" hspace="12">
+
+**Mikhail Mikhailovich Bakhtin (1895–1975)**
+
+Mikhail Bakhtin was a philosopher and literary scholar who proposed a new reading of Dostoevsky. In Problems of Dostoevsky’s Poetics, he described polyphony: characters retain their own voices and views rather than merely speaking for the author. His idea reveals literature as an encounter between independent perspectives. We named the skill after him because it considers different approaches to a writing task. Our practical connection is dialogue: compare possible solutions and develop a text while preserving the chosen authorial voice.
+
+<br clear="all">
+
+Photo: unknown photographer · [source and terms](assets/people/CREDITS.md).
+
 ## Compatibility and source
 
 Check the tools available in your app when setting up. The English page translates the documentation.

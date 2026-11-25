@@ -1,0 +1,21 @@
+{
+  "file": "portraits/bakhtin.jpg",
+  "sha256": "e5083ab81bf577403577c4249d2df00746168228340aa9857d4629b4c5b35b2c",
+  "dimensions": [
+    722,
+    540
+  ],
+  "media_type": "image/jpeg",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Mikhail_bakhtin.jpg",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Mikhail_bakhtin.jpg",
+  "source_metadata": "research/commons-bakhtin.json",
+  "title": "File:Mikhail bakhtin.jpg",
+  "author": "Unknown author",
+  "date": "1920s",
+  "credit": "http://ec-dejavu.ru",
+  "license": "Public domain",
+  "license_url": null,
+  "rights_status": "commons_public_domain_label",
+  "changes": "none; original file downloaded byte-for-byte",
+  "http_status": 200
+}
