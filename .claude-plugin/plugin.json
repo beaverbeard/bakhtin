@@ -1,13 +1,13 @@
 {
   "name": "bakhtin",
   "displayName": "Бахтин",
-  "version": "1.1.0",
-  "description": "Multi-agent Russian text generator with a bundled neutral voice, explicit custom-voice priority, voice-aware selection and optional synthesis.",
+  "version": "1.1.1",
+  "description": "Для русского языка · For Russian. Пишет посты, письма и статьи по вашему брифу и материалам, учитывая нужный стиль. / Writes posts, emails and articles from your brief and material in the style you need.",
   "author": {
     "name": "Rodion Scryabin (beaverbeard)",
     "url": "https://github.com/beaverbeard"
   },
-  "homepage": "https://github.com/beaverbeard/bakhtin",
+  "homepage": "https://redaktozavr.ru/rAIdactor?utm_source=skills",
   "repository": "https://github.com/beaverbeard/bakhtin",
   "license": "MIT",
   "keywords": [
@@ -18,5 +18,7 @@
   ],
   "skills": [
     "./.claude/skills/"
-  ]
+  ],
+  "icon": "./.claude-plugin/icon.png",
+  "documentationUrl": "https://github.com/beaverbeard/bakhtin"
 }

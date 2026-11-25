@@ -1,0 +1,6 @@
+interface:
+  display_name: "Бахтин"
+  short_description: "Пишет тексты по вашему брифу и материалам"
+  icon_small: "./assets/brand/icon-bakhtin.svg"
+  icon_large: "./assets/brand/icon-bakhtin.png"
+  brand_color: "#EE402C"
