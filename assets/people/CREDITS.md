@@ -7,7 +7,7 @@
 - Author: Unknown author
 - Date: 1920s
 - License / status as stated by the source: Public domain
-- Changes: none. The source image has not been edited.
+- Portrait changes: none. The card adds typography and layout around the original photograph.
 - SHA-256: `e5083ab81bf577403577c4249d2df00746168228340aa9857d4629b4c5b35b2c`
 
 The repository’s MIT license does not replace the photograph’s separate terms.

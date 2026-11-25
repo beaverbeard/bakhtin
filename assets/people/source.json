@@ -17,5 +17,97 @@
   "license_url": null,
   "rights_status": "commons_public_domain_label",
   "changes": "none; original file downloaded byte-for-byte",
-  "http_status": 200
+  "http_status": 200,
+  "card_renders": [
+    {
+      "slug": "bakhtin",
+      "lang": "ru",
+      "layout": "wide",
+      "theme": "light",
+      "file": "biography-ru-light.png",
+      "width": 1280,
+      "height": 673,
+      "sha256": "aa655d74dfeb92b9b5a104a7cd62d7db1812aafa814f6b9450e5b7852d072f27",
+      "portrait_sha256": "e5083ab81bf577403577c4249d2df00746168228340aa9857d4629b4c5b35b2c"
+    },
+    {
+      "slug": "bakhtin",
+      "lang": "ru",
+      "layout": "wide",
+      "theme": "dark",
+      "file": "biography-ru-dark.png",
+      "width": 1280,
+      "height": 673,
+      "sha256": "ce7422f7efb2e4f4377f70f1845a8d683c213657556294d519da3a9f8459f5b0",
+      "portrait_sha256": "e5083ab81bf577403577c4249d2df00746168228340aa9857d4629b4c5b35b2c"
+    },
+    {
+      "slug": "bakhtin",
+      "lang": "ru",
+      "layout": "mobile",
+      "theme": "light",
+      "file": "biography-ru-light-mobile.png",
+      "width": 840,
+      "height": 1153,
+      "sha256": "7dafb7f5e8b00f54ff3a3ce066fa377088e78386bc0b10ed52b196ebc710d51d",
+      "portrait_sha256": "e5083ab81bf577403577c4249d2df00746168228340aa9857d4629b4c5b35b2c"
+    },
+    {
+      "slug": "bakhtin",
+      "lang": "ru",
+      "layout": "mobile",
+      "theme": "dark",
+      "file": "biography-ru-dark-mobile.png",
+      "width": 840,
+      "height": 1153,
+      "sha256": "4db88977fa4e7de6d035c723b5a8d7240f815edce317cc1402b9a5b599114bd9",
+      "portrait_sha256": "e5083ab81bf577403577c4249d2df00746168228340aa9857d4629b4c5b35b2c"
+    },
+    {
+      "slug": "bakhtin",
+      "lang": "en",
+      "layout": "wide",
+      "theme": "light",
+      "file": "biography-en-light.png",
+      "width": 1280,
+      "height": 588,
+      "sha256": "f78cb69eb2f433475f27d521fb56e7c56fd784dc5e1d4010cd7c667a6949a35b",
+      "portrait_sha256": "e5083ab81bf577403577c4249d2df00746168228340aa9857d4629b4c5b35b2c"
+    },
+    {
+      "slug": "bakhtin",
+      "lang": "en",
+      "layout": "wide",
+      "theme": "dark",
+      "file": "biography-en-dark.png",
+      "width": 1280,
+      "height": 588,
+      "sha256": "778f39bfa556bf643b2692d36070a03fc510a6a9c806f69e77b8d5d6d263ac50",
+      "portrait_sha256": "e5083ab81bf577403577c4249d2df00746168228340aa9857d4629b4c5b35b2c"
+    },
+    {
+      "slug": "bakhtin",
+      "lang": "en",
+      "layout": "mobile",
+      "theme": "light",
+      "file": "biography-en-light-mobile.png",
+      "width": 840,
+      "height": 977,
+      "sha256": "79eafc623985c3d6fbb48461e614dc49792af4886320b17244bcac74cf87b0f9",
+      "portrait_sha256": "e5083ab81bf577403577c4249d2df00746168228340aa9857d4629b4c5b35b2c"
+    },
+    {
+      "slug": "bakhtin",
+      "lang": "en",
+      "layout": "mobile",
+      "theme": "dark",
+      "file": "biography-en-dark-mobile.png",
+      "width": 840,
+      "height": 977,
+      "sha256": "98dc07a89da3ba6a6e18cda70b60d8ddb3dac7a00445d256d9c74344fbd15f73",
+      "portrait_sha256": "e5083ab81bf577403577c4249d2df00746168228340aa9857d4629b4c5b35b2c"
+    }
+  ],
+  "card_layout": "separate portrait and text blocks; mobile paragraph below the portrait/name row",
+  "card_font": "Onest Regular/Bold"
 }
